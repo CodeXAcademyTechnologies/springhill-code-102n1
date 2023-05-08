@@ -50,15 +50,15 @@ Upon satisfactory completion of this course, a student should be able to:
 
 ## Course Schedule
 
-| Class # | Topic                                              |
-| ------- | -------------------------------------------------- |
-| 1       | Learning Markdown                                  |
-| 2       | The coders Computer                                |
-| 3       | Revisions and the Cloud                            |
-| 4       | Structure web pages with HTML                      |
-| 5       | Design web pages with CSS                          |
-| 6       | Activate web pages with JavaScript                 |
-| 7       | Programming with JavaScript                        |
-| 8       | Just enough math, logic, and computer architecture |
-| 9       | Career Coaching                                    |
-| 10      | 201 Entrance Exam                                  |
+| Class # | Topic                                                                                                                                      |
+| ------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| 1       | [Learning Markdown](https://github.com/CodeXAcademyTechnologies/springhill-code-102n2/tree/main/class-01)                                  |
+| 2       | [The coders Computer](https://github.com/CodeXAcademyTechnologies/springhill-code-102n2/tree/main/class-02)                                |
+| 3       | [Revisions and the Cloud](https://github.com/CodeXAcademyTechnologies/springhill-code-102n2/tree/main/class-03)                            |
+| 4       | [Structure web pages with HTML](https://github.com/CodeXAcademyTechnologies/springhill-code-102n2/tree/main/class-04)                      |
+| 5       | [Design web pages with CSS](https://github.com/CodeXAcademyTechnologies/springhill-code-102n2/tree/main/class-05)                          |
+| 6       | [Activate web pages with JavaScript](https://github.com/CodeXAcademyTechnologies/springhill-code-102n2/tree/main/class-06)                 |
+| 7       | [Programming with JavaScript](https://github.com/CodeXAcademyTechnologies/springhill-code-102n2/tree/main/class-07)                        |
+| 8       | [Just enough math, logic, and computer architecture](https://github.com/CodeXAcademyTechnologies/springhill-code-102n2/tree/main/class-08) |
+| 9       | [Career Coaching](https://github.com/CodeXAcademyTechnologies/springhill-code-102n2/tree/main/class-09)                                    |
+| 10      | [201 Entrance Exam](https://github.com/CodeXAcademyTechnologies/springhill-code-102n2/tree/main/class-10)                                  |
