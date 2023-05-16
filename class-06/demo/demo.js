@@ -5,7 +5,9 @@ console.log('Hello' + ' ' + username);
 
 let time = prompt('What hour is it? (0-23)');
 
-let message;
+let message = 'hello';
+let x = 5;
+x ** 5;
 
 if (time <= 11) {
   message = 'Good Morning'
@@ -16,7 +18,3 @@ if (time <= 11) {
 } else {
   message = 'That hour does not exist'
 }
-
-
-
-document.write('Hello' + ' ' + username + ' ' + message)
