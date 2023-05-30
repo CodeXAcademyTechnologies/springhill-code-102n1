@@ -1,4 +1,14 @@
 'use strict'
+function whileExample() {
+  let password = prompt('Enter your new password:');
+  while (password.length < 8) {
+    alert('your password must be at least 8 characters long');
+    password = prompt('Enter your new password');
+  }
+
+  alert('Your password has been accepted!');
+
+}
 
 function yourName() {
   let usersName = prompt('What is your name?');
@@ -36,7 +46,26 @@ function timeOfDay() {
   }
   return message
 }
-
+function showCars() {
+  let shownCar = '';
+  let usersCar;
+  while (usersCar !== 'Toyota' || usersCar !== 'Mitsubishi' || usersCar !== 'Porsche') {
+    usersCar = prompt('which brand do you prefer? Toyota, Mitsubishi, or Porsche');
+    if (usersCar === 'Toyota') {
+      shownCar = "<img class='showCars' src='/class-08/images/ToyotaDemo.jpg'/>"
+      break;
+    } else if (usersCar === 'Mitsubishi') {
+      shownCar = "<img class='showCars' src='https://images.unsplash.com/photo-1611396058741-1d570a4fcf95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80'/>"
+      break;
+    } else if (usersCar === 'Porsche') {
+      shownCar = "<img class='showCars' src='https://images.unsplash.com/photo-1580274455191-1c62238fa333?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=764&q=80'/>"
+      break;
+    } else {
+      alert('That was not one of the selections!');
+    }
+  }
+  return document.write(shownCar);
+}
 function displayRating() {
   let output = '';
   let rating = prompt('scale of 1-5, how many stars?');
